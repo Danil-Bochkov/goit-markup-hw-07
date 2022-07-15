@@ -14,17 +14,15 @@
     }
 }
 
-.footer-list__link--muted-color {
+.footer-list__link_muted-color {
     color: rgba(255, 255, 255, 0.6);
 
-    &:hover {
-        color: var(--accent-color);
-    }
+    &:hover,
     &:focus {
         color: var(--accent-color);
     }
 }
 
-.footer-list__link--transition {
+.footer-list__link_transition {
     transition: color var(--time-of-animation) var(--timing-function);
 }
