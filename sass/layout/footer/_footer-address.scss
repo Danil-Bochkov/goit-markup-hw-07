@@ -1,0 +1,30 @@
+.footer-list {
+    display: block;
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-list__item {
+    font-style: normal;
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.footer-list__link--muted-color {
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer-list__link--transition {
+    transition: color 250ms var(--timing-function);
+}
