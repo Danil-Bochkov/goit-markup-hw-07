@@ -26,5 +26,5 @@
 }
 
 .footer-list__link--transition {
-    transition: color 250ms var(--timing-function);
+    transition: color var(--time-of-animation) var(--timing-function);
 }

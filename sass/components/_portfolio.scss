@@ -30,9 +30,9 @@
 
     background-color: var(--primary-white-color);
 
-    transition: color 250ms var(--timing-function),
-        background-color 250ms var(--timing-function),
-        box-shadow 250ms var(--timing-function);
+    transition: color var(--time-of-animation) var(--timing-function),
+        background-color var(--time-of-animation) var(--timing-function),
+        box-shadow var(--time-of-animation) var(--timing-function);
 
     &:hover,
     &:focus {
@@ -67,7 +67,7 @@
 .portfolio-case {
     display: block;
     
-    transition: box-shadow 250ms var(--timing-function);
+    transition: box-shadow var(--time-of-animation) var(--timing-function);
 
     &:hover,
     &:focus {
@@ -101,7 +101,7 @@
     background-color: rgba(33, 150, 243, 0.9);
 
     transform: translateY(0);
-    transition: transform 250ms var(--timing-function);
+    transition: transform var(--time-of-animation) var(--timing-function);
 
     .portfolio-case:hover &,
     .portfolio-case:focus & {

@@ -31,7 +31,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
-    transition: border-color 250ms var(--timing-function);
+    transition: border-color var(--time-of-animation) var(--timing-function);
 
     &:placeholder-shown {
     font-weight: 400;
@@ -63,7 +63,7 @@
 .field__wrapper {
     position: relative;
 
-    transition: fill 250ms var(--timing-function);
+    transition: fill var(--time-of-animation) var(--timing-function);
 
     &:focus-within {
         border-color: var(--accent-color);
@@ -86,7 +86,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
-    transition: border-color 250ms var(--timing-function);
+    transition: border-color var(--time-of-animation) var(--timing-function);
 
     &:focus-within {
         border-color: var(--accent-color);

@@ -62,8 +62,8 @@
     border-radius: 50%;
     fill: var(--color-icon);
 
-    transition: background-color 250ms var(--timing-function),
-        fill 250ms var(--timing-function);
+    transition: background-color var(--time-of-animation) var(--timing-function),
+        fill var(--time-of-animation) var(--timing-function);
 
     &:hover,
     &:focus {

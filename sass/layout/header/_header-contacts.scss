@@ -29,8 +29,8 @@
     color: var(--muted-text-color);
     fill: var(--muted-text-color);
 
-    transition: color 250ms var(--timing-function),
-        fill 250ms var(--timing-function);
+    transition: color var(--time-of-animation) var(--timing-function),
+        fill var(--time-of-animation) var(--timing-function);
 
     &:hover,
     &:focus {

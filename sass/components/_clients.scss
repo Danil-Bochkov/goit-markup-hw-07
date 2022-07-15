@@ -31,7 +31,7 @@
     border-radius: 4px;
     fill: var(--color-icon);
 
-    transition: border-color 250ms var(--timing-function),
+    transition: border-color var(--time-of-animation) var(--timing-function),
         fill 250ms var(--timing-function);
 
     &:hover,

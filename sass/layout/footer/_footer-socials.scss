@@ -35,12 +35,9 @@
     border-radius: 50%;
     fill: var(--color-white);
 
-    transition: background-color 250ms var(--timing-function);
+    transition: background-color var(--time-of-animation) var(--timing-function);
 
-    &:hover {
-        background-color: var(--accent-color);
-    }
-
+    &:hover,
     &:focus {
         background-color: var(--accent-color);
     }
